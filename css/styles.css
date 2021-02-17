@@ -1,0 +1,254 @@
+body {
+  background-image: url(woman.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.h2 {
+  position: relative;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  top: 450px;
+  padding-left: 350px;
+}
+
+.middle-container {}
+
+/* Navigation Bar */
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 1px;
+}
+
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.featured {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Blog Images */
+.row {
+  position: absolute;
+  top: 850px;
+  margin: 30px;
+  text-align: center;
+  }
+
+.card1 {
+  margin: 5px;
+}
+
+.card2 {
+  margin: 5px;
+  padding-bottom: 10px;
+}
+
+.card3 {
+  margin: 5px;
+}
+
+.card4 {
+  margin: 5px;
+}
+
+.card5 {
+  margin: 5px;
+}
+
+.card6 {
+  margin: 5px;
+}
+
+.card7 {
+  margin: 5px;
+}
+
+.card8 {
+  margin: 5px;
+}
+
+.card9 {
+  margin: 5px;
+}
+
+.card10 {
+  margin: 5px;
+}
+
+.card11 {
+  margin: 5px;
+}
+
+.card12 {
+  margin: 5px;
+  height: 50%;
+}
+
+.card0 {
+  position: relative;
+  width: 305px;
+  height: 320px;
+  opacity: 0.5;
+  top: 300px;
+  border-radius: 25px;
+  background-color: black;
+}
+
+.card0-image-text {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  position: relative;
+  padding: 25px;
+}
+
+.card0-image-text-1 {
+  position: relative;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-fluid {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: purple;
+  opacity: 0.5;
+  text-align: center;
+  height: 50px;
+  bottom: 0;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  top: 900%;
+  font-size: 0.9rem;
+}
+
+.user {
+    width: 90%;
+    max-width: 340px;
+    margin: 10vh auto;
+}
+
+.user__header {
+    text-align: center;
+    animation: arrive 500ms ease-in-out 0.7s forwards;
+}
+
+.user__title {
+  font-size: 2rem;
+  margin-bottom: -10px;
+  font-weight: 500;
+  padding-top: 20px;
+
+}
+
+.form__input {
+  top: 90px;
+  outline: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: transparent;
+  line-height: 30px;
+  margin: 10px;
+  position: absolute;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+#testimonial {
+    animation: move 10s ease infinite;
+    transform: translate3d(0, 0, 0);
+    background: linear-gradient(45deg, #49D49D 10%, #A2C7E5 90%);
+    opacity: 0.9
+    position: absolute;
+}
+
+.button {
+  display: block;
+  top: 90px;
+  outline: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: transparent;
+  line-height: 30px;
+  margin: 10px;
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  margin-left: 215px;
+  cursor: pointer;
+  background-color: #fd3a69;
+  color: white;
+}
+
+.button:hover {
+}
